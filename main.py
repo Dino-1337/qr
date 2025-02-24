@@ -98,24 +98,23 @@ async def process_all_students(stu_profiles, category, qr_code):
 
 stu_profiles = [
     # {
-    #     "username": "e22cseu0325@bennett.edu.in",
-    #     "password": "EUYa7gC1",
-    #     "name": "Chirag Aggarwal",
-    #     "category": ["Automata", "AIDesign", "Compiler", "NLP"],
+    #     "username": "e22cseu0145@bennett.edu.in",
+    #     "password": "14-03-2004",
+    #     "name": "Priyanshu Dash",
+    #     "category": ["AIandSociety", "TimeSeries", "InformationRetrieval", "DeepLearning","Communication","IVP"],
     # },
 ]
 
 category = st.radio(
     "Category?",
     [
-        "AiS",
+        "AiSociety",
         "Cpp",
-        "Comm",
-        "ACV",
+        "Time Series",
+        "IR",
         "IVP",
-        "TS",
-        "DM",
-        "Cloud",
+        "DeepLearning",
+        "Communication",
     ],
 )
 
