@@ -5,6 +5,28 @@ from streamlit_qrcode_scanner import qrcode_scanner
 
 st.title("Lmao Attendance")
 
+import streamlit as st
+
+st.markdown(
+    """
+    <style>
+        .stApp {
+            background-color: white !important;
+        }
+        label, .stRadio div {
+            color: black !important;
+            font-weight: bold;
+        }
+        h1 {
+            color: black !important;
+            font-weight: bold;
+        }
+        
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 async def get_cookies(session, username, password):
     headers = {
